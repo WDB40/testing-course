@@ -18,4 +18,18 @@ public class CafeTest {
         assertEquals(7, coffee.getBeans());
     }
 
+    @Test
+    public void canBrewLatte(){
+
+        Cafe cafe = new Cafe();
+        cafe.restockBeans(10);
+        cafe.restockMilk(300);
+
+        Coffee coffee = cafe.brew(CoffeeType.Latte);
+
+        assertEquals(CoffeeType.Latte, coffee.getType());
+        assertEquals(7, coffee.getBeans());
+        assertEquals(227, coffee.getMilk());
+    }
+
 }

@@ -2,3 +2,12 @@ Three things needed for a test
     - The given, the preconditions
     - The when, what is being tested, the behavior
     - The then, the result
+
+Executable Documentation
+
+Naming
+    - Use domain terminology
+    - Natural language
+    - Be descriptive
+
+Don't look at things that are meant to be private

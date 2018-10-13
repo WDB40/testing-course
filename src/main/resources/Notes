@@ -1,0 +1,4 @@
+Three things needed for a test
+    - The given, the preconditions
+    - The when, what is being tested, the behavior
+    - The then, the result
